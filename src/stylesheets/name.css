@@ -10,9 +10,11 @@
 }
 
 .text-container {
+    width: 80vw;
+    height: 36.22291021671827vh;
     position: absolute;
-    top: 50%;
-    left: 47%;
+    top: 45%;
+    left: 50%;
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
@@ -22,8 +24,6 @@
 }
 
 .name-declaration {
-    width: 24em;
-    width: 100%;
     overflow: hidden;
     border-style: none;
     white-space: nowrap;
@@ -51,7 +51,7 @@
 h1 {
     display: inline;
     clear: none;
-    font-size: 2vw;
+    font-size: 1.9vw;
 }
 
 
@@ -59,8 +59,8 @@ h1 {
 
 
 
+
 .role-declaration {
-    width: 24em;
     padding-left: 4%;
     overflow: hidden;
     border-style: none;
@@ -73,7 +73,6 @@ h1 {
 }
 
 .status-declaration {
-    width: 24em;
     padding-left: 4%;
     overflow: hidden;
     border-style: none;
@@ -86,7 +85,6 @@ h1 {
 }
 
 .return {
-    width: 24em;
     padding-left: 4%;
     overflow: hidden;
     border-style: none;
@@ -98,7 +96,6 @@ h1 {
 }
 
 .open-div {
-    width: 24em;
     padding-left: 8%;
     overflow: hidden;
     border-style: none;
@@ -111,7 +108,6 @@ h1 {
 }
 
 .html {
-    width: 24em;
     padding-left: 12%;
     overflow: hidden;
     border-style: none;
@@ -124,7 +120,6 @@ h1 {
 }
 
 .close-div {
-    width: 24em;
     padding-left: 8%;
     overflow: hidden;
     border-style: none;
@@ -137,7 +132,6 @@ h1 {
 }
 
 .close-return {
-    width: 24em;
     padding-left: 4%;
     overflow: hidden;
     border-style: none;
@@ -150,7 +144,6 @@ h1 {
 }
 
 .closing-bracket {
-    width: 24em;
     overflow: hidden;
     border-style: none;
     white-space: nowrap;
