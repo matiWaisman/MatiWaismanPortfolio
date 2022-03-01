@@ -127,7 +127,7 @@ h1 {
     }
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 315px) {
     h1 {
         font-size: 5px;
     }
@@ -137,6 +137,13 @@ h1 {
 @media screen and (max-width: 250px) {
     h1 {
         font-size: 4px;
+    }
+}
+
+
+@media screen and (max-width: 200px) {
+    h1 {
+        font-size: 3px;
     }
 }
 
