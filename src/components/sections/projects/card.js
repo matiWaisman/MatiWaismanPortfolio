@@ -2,7 +2,7 @@ import React from "react";
 import "../../../stylesheets/card.css";
 
 const Card = (props) => {
-  const { projectName, tags, image, gitLink } = props;
+  const { projectName, tags, image, gitLink, link } = props;
   return (
     <>
       <article className="module-project">
@@ -11,7 +11,7 @@ const Card = (props) => {
           <img className="image" src={image}></img>
         </div>
         <div className="project-module">
-          <a href={gitLink} className="link">
+          <a href={link} className="link">
             <svg
               strokeWidth="0"
               viewBox="0 0 576 512"

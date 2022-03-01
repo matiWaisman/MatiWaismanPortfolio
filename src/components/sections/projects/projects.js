@@ -18,13 +18,15 @@ const Projects = () => {
     name: language ? "Task Manager" : "Administrador de Tareas",
     tags: ["Express", "MongoDB", "React"],
     image: todoImage,
-    gitLink: "https://github.com/matiWaisman/TaskManagerMern",
+    gitLink: "https://github.com/matiWaisman/TaskManagerHeroku",
+    link: "https://tm-matias-waisman.herokuapp.com/",
   };
   var store = {
     name: language ? "Store" : "Tienda",
     tags: ["Express", "MongoDB", "React"],
     image: storeImage,
-    gitLink: "https://github.com/matiWaisman/StoreMern",
+    gitLink: "https://github.com/matiWaisman/StoreHeroku",
+    link: "https://store-mern-matias-waisman.herokuapp.com/",
   };
 
   var portfolio = {
@@ -32,6 +34,7 @@ const Projects = () => {
     tags: ["React"],
     image: portfolioImage,
     gitLink: "https://github.com/matiWaisman/MatiWaismanPortfolio",
+    link: "https://matias-waisman.herokuapp.com/",
   };
   var arrayProjects = [taskManager, store, portfolio];
 
@@ -61,6 +64,7 @@ const Projects = () => {
             image={project.image}
             key={project.name}
             gitLink={project.gitLink}
+            link={project.link}
           />
         ))}
       </div>
