@@ -11,7 +11,7 @@
 
 .text-container {
     position: absolute;
-    top: 48%;
+    top: 50%;
     left: 47%;
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -43,6 +43,7 @@
     to {
         width: 100%;
         border-style: none;
+        transform: none;
     }
 }
 
