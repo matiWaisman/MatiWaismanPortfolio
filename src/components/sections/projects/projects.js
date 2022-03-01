@@ -18,17 +18,20 @@ const Projects = () => {
     name: language ? "Task Manager" : "Administrador de Tareas",
     tags: ["Express", "MongoDB", "React"],
     image: todoImage,
+    gitLink: "https://github.com/matiWaisman/TaskManagerMern",
   };
   var store = {
     name: language ? "Store" : "Tienda",
     tags: ["Express", "MongoDB", "React"],
     image: storeImage,
+    gitLink: "https://github.com/matiWaisman/StoreMern",
   };
 
   var portfolio = {
     name: language ? "Personal Page" : "Página Personal",
     tags: ["React"],
     image: portfolioImage,
+    gitLink: "https://github.com/matiWaisman/MatiWaismanPortfolio",
   };
   var arrayProjects = [taskManager, store, portfolio];
 
@@ -57,6 +60,7 @@ const Projects = () => {
             tags={project.tags}
             image={project.image}
             key={project.name}
+            gitLink={project.gitLink}
           />
         ))}
       </div>
