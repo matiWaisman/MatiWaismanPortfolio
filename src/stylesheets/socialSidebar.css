@@ -1,0 +1,105 @@
+.vertical-align {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    animation:
+        fadeInAnimation 2s forwards;
+    animation-delay: 13s;
+    opacity: 0;
+}
+
+.animation-cancel {
+    animation:
+        fadeInAnimation 2s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .vertical-align {
+        visibility: hidden;
+    }
+}
+
+.icons-list {
+    background-color: #081529;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.icons-list li a {
+    padding: 10px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+}
+
+.icons-list li a svg {
+    width: 20px;
+    height: 20px;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    fill: currentcolor;
+    vertical-align: middle;
+    border-color: aliceblue;
+    color: #0a192f;
+
+}
+
+.icons-list li:last-of-type {
+    margin-bottom: 20px;
+}
+
+.icons-list::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: #a8b2d1;
+}
+
+svg.feather {
+    position: relative;
+    fill: none;
+    color: #a8b2d1;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+svg.feather:hover {
+    top: -5px;
+    color: #66CCFF;
+}

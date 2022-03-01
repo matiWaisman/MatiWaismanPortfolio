@@ -1,0 +1,43 @@
+.spacer-container {
+    display: inline-block;
+}
+
+.layer1Top {
+    background-image: url("../images/layer1Top.svg");
+}
+
+
+.layer1Bot {
+    background-image: url("../images/layer1Bot.svg");
+}
+
+.small-spacer {
+    aspect-ratio: 960/100;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.layer2 {
+    background-image: url("../images/layer2.svg");
+}
+
+.layer3 {
+    background-image: url("../images/layer3.svg");
+}
+
+.image1 {
+    position: relative;
+    width: 100% !important;
+    margin-bottom: -10px;
+}
+
+.image2 {
+    z-index: 1;
+    width: 100% !important;
+    position: relative;
+    left: 0px;
+    margin-top: -1px;
+}

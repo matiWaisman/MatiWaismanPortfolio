@@ -1,0 +1,68 @@
+.skills {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6%;
+    padding-bottom: 3%;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-row-gap: 40px;
+    grid-column-gap: 220px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.flex-skill {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.fadeLeft {
+    opacity: 0;
+    animation:
+        fadeInLeft 3s forwards;
+}
+
+.fadeRight {
+    opacity: 0;
+    animation:
+        fadeInRight 3s forwards;
+}
+
+
+
+.icon {
+    position: relative;
+    margin-top: 2px;
+}
+
+.skill-name {
+    display: block;
+    position: relative;
+    margin-left: 5px;
+    color: #66CCFF;
+    font-size: clamp(24px, 5vw, 13px);
+    font-family: 'JetBrains Mono', monospace;
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        margin-left: 32px;
+        grid-row-gap: 25px
+    }
+
+    .fadeRight {
+        opacity: 0;
+        animation:
+            fadeInLeft 3s forwards;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .grid-container {
+        grid-row-gap: 20px
+    }
+}

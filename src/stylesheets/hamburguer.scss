@@ -1,0 +1,124 @@
+.toggle-menu {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  float: right;
+  z-index: 1000;
+}
+
+.toggle-menu i {
+  position: absolute;
+  display: block;
+  height: 2px;
+  background: #64ffda;
+  width: 30px;
+  left: 0px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  opacity: 0;
+    animation:
+        fadeIn 2s forwards;
+    animation-delay: 13s;
+}
+
+@keyframes fadeInRight {
+  0% {
+      opacity: 0;
+      transform: translateX(20px);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+.toggle-menu i:nth-child(1) {
+  top: 4px;
+  left: 43px;
+}
+
+.toggle-menu i:nth-child(2) {
+  top: 12px;
+  left: 43px;
+}
+
+.toggle-menu i:nth-child(3) {
+  top: 20px;
+  left: 43px;
+}
+
+@media screen and (min-width: 768px) {
+  .toggle-menu i:nth-child(1) {
+    top: 6px;
+    left: 43px;
+  }
+  
+  .toggle-menu i:nth-child(2) {
+    top: 14px;
+    left: 43px;
+  }
+  
+  .toggle-menu i:nth-child(3) {
+    top: 22px;
+    left: 43px;
+  }
+}
+
+.toggle-menu.active i:nth-child(1) {
+  top: 25px;
+  left: 7px;
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+
+.toggle-menu.active i:nth-child(2) {
+  background: transparent;
+}
+
+.toggle-menu.active i:nth-child(3) {
+  top: 25px;
+  left: 7px;
+  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  height: 9000px;
+}
+
+.menu-drawer {
+  width: 400px;
+  background-color: #64ffda;
+  height: 900px;
+  position: absolute;
+  right: -550px;
+  top: 0;
+  transition: right linear .2s;
+  padding: 50px;
+}
+
+.open {
+  right: 0px;
+  transition: right linear .2s;
+}
+
+.menu-drawer {
+  li {
+    font-family: lato;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 50px;
+    text-align: center;
+    a {
+      text-decoration: none;
+      color: #555;
+      &:hover {
+        color: #64ffda;
+      }
+    }
+  }
+}

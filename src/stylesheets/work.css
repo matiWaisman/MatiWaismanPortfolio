@@ -1,0 +1,112 @@
+.contact-form {
+    justify-content: center;
+    text-align: center;
+}
+
+.form-title {
+    margin-block-start: 0;
+    position: relative;
+    padding: 0 0 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #7246b8;
+
+}
+
+.form-title:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #66CCFF;
+}
+
+.field {
+    width: 90%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+    font-family: "JetBrains Mono", monospace;
+    color: rgb(118, 118, 118);
+}
+
+
+
+
+.btn {
+    width: 96%;
+    padding: 0.5rem 1rem;
+    background-color: #7246b8;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color: #66CCFF;
+}
+
+.field:focus {
+    border: 2px solid #7246b8;
+}
+
+.form-textarea {
+    min-height: 150px;
+}
+
+textarea {
+    resize: none;
+}
+
+@media screen and (max-width: 880px) {
+    .contact-box {
+        grid-template-columns: 1fr;
+    }
+
+    .left {
+        height: 200px;
+    }
+}
+
+.captcha {
+    margin: 0 auto;
+    width: 65%;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+    .captcha {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .captcha {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .captcha {
+        width: 93%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .captcha {
+        width: 85%;
+        transform: scale(0.77);
+        transform-origin: 0 0;
+    }
+}
