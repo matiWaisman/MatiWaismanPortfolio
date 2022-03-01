@@ -77,6 +77,12 @@ h1 {
     }
 }
 
+@media screen and (max-width: 720px) {
+    h1 {
+        font-size: .9rem;
+    }
+}
+
 @media screen and (max-width: 556px) {
     h1 {
         font-size: .8rem;
@@ -96,6 +102,12 @@ h1 {
 @media screen and (max-width: 393px) {
     h1 {
         font-size: .5rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    h1 {
+        font-size: .45rem;
     }
 }
 
@@ -120,6 +132,14 @@ h1 {
         font-size: 5px;
     }
 }
+
+
+@media screen and (max-width: 250px) {
+    h1 {
+        font-size: 4px;
+    }
+}
+
 
 
 .role-declaration {
