@@ -4,9 +4,9 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
     height: 95vh;
     font-family: 'JetBrains Mono', monospace;
+
 }
 
 .text-container {
@@ -22,6 +22,7 @@
 }
 
 .name-declaration {
+    width: 24em;
     width: 100%;
     overflow: hidden;
     border-style: none;
@@ -122,7 +123,7 @@ h1 {
 
 
 .role-declaration {
-    width: 100%;
+    width: 24em;
     padding-left: 4%;
     overflow: hidden;
     border-style: none;
@@ -135,7 +136,7 @@ h1 {
 }
 
 .status-declaration {
-    width: 100%;
+    width: 24em;
     padding-left: 4%;
     overflow: hidden;
     border-style: none;
@@ -148,21 +149,19 @@ h1 {
 }
 
 .return {
-    width: 100%;
+    width: 24em;
     padding-left: 4%;
     overflow: hidden;
     border-style: none;
     white-space: nowrap;
     animation:
         typing 2s steps(23, end) forwards;
-    width: 0;
+    width: 0%;
     animation-delay: 6s;
-    display: inline-block;
-
 }
 
 .open-div {
-    width: 100%;
+    width: 24em;
     padding-left: 8%;
     overflow: hidden;
     border-style: none;
@@ -175,7 +174,7 @@ h1 {
 }
 
 .html {
-    width: 100%;
+    width: 24em;
     padding-left: 12%;
     overflow: hidden;
     border-style: none;
@@ -188,7 +187,7 @@ h1 {
 }
 
 .close-div {
-    width: 100%;
+    width: 24em;
     padding-left: 8%;
     overflow: hidden;
     border-style: none;
@@ -201,7 +200,7 @@ h1 {
 }
 
 .close-return {
-    width: 100%;
+    width: 24em;
     padding-left: 4%;
     overflow: hidden;
     border-style: none;
@@ -214,7 +213,7 @@ h1 {
 }
 
 .closing-bracket {
-    width: 100%;
+    width: 24em;
     overflow: hidden;
     border-style: none;
     white-space: nowrap;
