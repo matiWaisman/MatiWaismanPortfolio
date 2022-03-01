@@ -50,102 +50,11 @@
 h1 {
     display: inline;
     clear: none;
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 
 
-@media screen and (max-width: 1024px) {
-    h1 {
-        font-size: 1.4rem;
-    }
-
-    .text-container {
-        left: 45%;
-    }
-}
-
-@media screen and (max-width: 950px) {
-    h1 {
-        font-size: 1.2rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    h1 {
-        font-size: 1.05rem;
-    }
-}
-
-@media screen and (max-width: 720px) {
-    h1 {
-        font-size: .9rem;
-    }
-}
-
-@media screen and (max-width: 556px) {
-    h1 {
-        font-size: .8rem;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    h1 {
-        font-size: .6rem;
-    }
-
-    .text-container {
-        left: 44%;
-    }
-}
-
-@media screen and (max-width: 393px) {
-    h1 {
-        font-size: .5rem;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    h1 {
-        font-size: .45rem;
-    }
-}
-
-@media screen and (max-width: 349px) {
-    h1 {
-        font-size: .4rem;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    h1 {
-        font-size: 6px;
-    }
-
-    .text-container {
-        left: 38%;
-    }
-}
-
-@media screen and (max-width: 315px) {
-    h1 {
-        font-size: 5px;
-    }
-}
-
-
-@media screen and (max-width: 250px) {
-    h1 {
-        font-size: 4px;
-    }
-}
-
-
-@media screen and (max-width: 200px) {
-    h1 {
-        font-size: 3px;
-    }
-}
 
 
 
