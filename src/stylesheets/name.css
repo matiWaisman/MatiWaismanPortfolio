@@ -22,6 +22,7 @@
 }
 
 .name-declaration {
+    width: 100%;
     overflow: hidden;
     border-style: none;
     white-space: nowrap;
@@ -121,6 +122,7 @@ h1 {
 
 
 .role-declaration {
+    width: 100%;
     padding-left: 4%;
     overflow: hidden;
     border-style: none;
@@ -133,6 +135,7 @@ h1 {
 }
 
 .status-declaration {
+    width: 100%;
     padding-left: 4%;
     overflow: hidden;
     border-style: none;
@@ -145,6 +148,7 @@ h1 {
 }
 
 .return {
+    width: 100%;
     padding-left: 4%;
     overflow: hidden;
     border-style: none;
@@ -158,6 +162,7 @@ h1 {
 }
 
 .open-div {
+    width: 100%;
     padding-left: 8%;
     overflow: hidden;
     border-style: none;
@@ -170,6 +175,7 @@ h1 {
 }
 
 .html {
+    width: 100%;
     padding-left: 12%;
     overflow: hidden;
     border-style: none;
@@ -182,6 +188,7 @@ h1 {
 }
 
 .close-div {
+    width: 100%;
     padding-left: 8%;
     overflow: hidden;
     border-style: none;
@@ -194,6 +201,7 @@ h1 {
 }
 
 .close-return {
+    width: 100%;
     padding-left: 4%;
     overflow: hidden;
     border-style: none;
@@ -206,6 +214,7 @@ h1 {
 }
 
 .closing-bracket {
+    width: 100%;
     overflow: hidden;
     border-style: none;
     white-space: nowrap;
