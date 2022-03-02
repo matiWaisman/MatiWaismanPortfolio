@@ -1,4 +1,5 @@
 import React from "react";
+import { CgProfile } from "react-icons/cg";
 
 const VerticalSidebar = (props) => {
   const { disableAnimation } = props;
@@ -9,6 +10,17 @@ const VerticalSidebar = (props) => {
       orientation="left"
     >
       <ul className="icons-list">
+        <li>
+          <a
+            href={require("../../images/CV.pdf")}
+            aria-label="GitHub"
+            target="_blank"
+            rel="noreferrer"
+            download
+          >
+            <CgProfile className="feather" />
+          </a>
+        </li>
         <li>
           <a
             href="https://github.com/matiWaisman"

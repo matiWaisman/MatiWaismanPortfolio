@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import "../../stylesheets/footer.css";
 import { LanguageContext } from "../../context/languageContext";
+import { CgProfile } from "react-icons/cg";
 
 const Footer = () => {
   const { language } = useContext(LanguageContext);
@@ -9,6 +10,15 @@ const Footer = () => {
       <footer className="footer">
         <span> {language ? "Built by" : "Hecho por"} Matías Waisman </span>
         <div className="footer-icons">
+          <a
+            href={require("../../images/CV.pdf")}
+            aria-label="GitHub"
+            target="_blank"
+            rel="noreferrer"
+            download
+          >
+            <CgProfile className="footer-icon" />
+          </a>
           <a href="https://github.com/matiWaisman">
             <svg
               xmlns="http://www.w3.org/2000/svg"
