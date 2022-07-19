@@ -16,6 +16,15 @@ const About = () => {
     setdisableAnimation(true);
   }
 
+  const getAge = (birthday) => {
+    var ageDifMs = Date.now() - birthday.getTime();
+    var ageDate = new Date(ageDifMs);
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
+  };
+
+  const myBirthDay = new Date(2004, 5, 19);
+  const myAge = getAge(myBirthDay);
+
   return (
     <>
       <div className="small-spacer layer1Top"></div>
@@ -39,8 +48,8 @@ const About = () => {
           >
             <p>
               {language
-                ? "Hi! My name is Matias and i am 17 years old, graduated from Ort's High school with specialization in web and mobile development and freshman at BSc. in Computer Science at the education department of exact and natural sciences from the University of Buenos Aires."
-                : "¡Hola! Me llamo Matías y tengo 17 años, egresado de la escuela Ort con Especialización en desarrollo web y Mobile e ingresante a Ciencias de la Computación en la FCEyN de la Universidad de Buenos Aires."}
+                ? `Hi! My name is Matias and i am ${myAge} years old, graduated from Ort's High school with specialization in web and mobile development and freshman at BSc. in Computer Science at the education department of exact and natural sciences from the University of Buenos Aires.`
+                : `¡Hola! Me llamo Matías y tengo ${myAge} años, egresado de la escuela Ort con Especialización en desarrollo web y Mobile e ingresante a Ciencias de la Computación en la FCEyN de la Universidad de Buenos Aires.`}
             </p>
             <p>
               {language ? "I enjoy" : "Disfruto"} {""}
