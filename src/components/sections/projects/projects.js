@@ -9,6 +9,7 @@ import { RefsContext } from "../../../context/refsContext";
 import portfolioImage from "../../../images/portfolio.jpg";
 import storeImage from "../../../images/store.jpg";
 import todoImage from "../../../images/todo.jpg";
+import ownTrelloImage from "../../../images/ownTrello.jpg";
 
 const Projects = () => {
   const { language } = useContext(LanguageContext);
@@ -36,7 +37,16 @@ const Projects = () => {
     gitLink: "https://github.com/matiWaisman/MatiWaismanPortfolio",
     link: "https://matias-waisman.herokuapp.com/",
   };
-  var arrayProjects = [taskManager, store, portfolio];
+
+  var ownTrello = {
+    name: language ? "My own version of Trello" : "Mi propia version de Trello",
+    tags: ["React"],
+    image: ownTrelloImage,
+    gitLink: "https://github.com/matiWaisman/OwnTrello",
+    link: "https://own-trello-matias-waisman.herokuapp.com/",
+  };
+
+  var arrayProjects = [taskManager, store, portfolio, ownTrello];
 
   return (
     <section className="projects" ref={projectsRef}>
