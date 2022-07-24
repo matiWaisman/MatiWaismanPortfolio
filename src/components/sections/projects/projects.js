@@ -8,6 +8,7 @@ import { LanguageContext } from "../../../context/languageContext";
 import { RefsContext } from "../../../context/refsContext";
 import portfolioImage from "../../../images/portfolio.jpg";
 import storeImage from "../../../images/store.jpg";
+import hackatonImage from "../../../images/hackaton.jpg";
 import todoImage from "../../../images/todo.jpg";
 import ownTrelloImage from "../../../images/ownTrello.jpg";
 
@@ -15,6 +16,7 @@ const Projects = () => {
   const { language } = useContext(LanguageContext);
   const { projectsRef } = useContext(RefsContext);
   const { elementIsVisible, animationHappened } = useAnimation(projectsRef);
+
   var taskManager = {
     name: language ? "Task Manager" : "Administrador de Tareas",
     tags: ["Express", "MongoDB", "React"],
@@ -22,12 +24,23 @@ const Projects = () => {
     gitLink: "https://github.com/matiWaisman/TaskManagerHeroku",
     link: "https://tm-matias-waisman.herokuapp.com/",
   };
+
   var store = {
     name: language ? "Store" : "Tienda",
     tags: ["Express", "MongoDB", "React"],
     image: storeImage,
     gitLink: "https://github.com/matiWaisman/StoreHeroku",
     link: "https://store-mern-matias-waisman.herokuapp.com/",
+  };
+
+  var hackatonCompetition = {
+    name: language
+      ? "Automatic Hackaton Competition"
+      : "Competición de Hackatons Automatica",
+    tags: ["Express", "MongoDB", "React"],
+    image: hackatonImage,
+    gitLink: "https://github.com/matiWaisman/HackatonHeroku",
+    link: "https://hackaton-matias-waisman.herokuapp.com/",
   };
 
   var portfolio = {
@@ -46,7 +59,13 @@ const Projects = () => {
     link: "https://own-trello-matias-waisman.herokuapp.com/",
   };
 
-  var arrayProjects = [taskManager, store, portfolio, ownTrello];
+  var arrayProjects = [
+    taskManager,
+    store,
+    hackatonCompetition,
+    portfolio,
+    ownTrello,
+  ];
 
   return (
     <section className="projects" ref={projectsRef}>
