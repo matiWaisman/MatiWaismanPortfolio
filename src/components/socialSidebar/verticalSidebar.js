@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import { CgProfile } from "react-icons/cg";
+import { LanguageContext } from "../../context/languageContext";
 
 const VerticalSidebar = (props) => {
+  const { language } = useContext(LanguageContext);
   const { disableAnimation } = props;
 
   return (
@@ -12,7 +14,11 @@ const VerticalSidebar = (props) => {
       <ul className="icons-list">
         <li>
           <a
-            href={require("../../images/CV.pdf")}
+            href={
+              language
+                ? require("../../images/englishCV.pdf")
+                : require("../../images/CV.pdf")
+            }
             aria-label="GitHub"
             target="_blank"
             rel="noreferrer"

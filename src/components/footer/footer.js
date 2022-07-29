@@ -11,7 +11,11 @@ const Footer = () => {
         <span> {language ? "Built by" : "Hecho por"} Matías Waisman </span>
         <div className="footer-icons">
           <a
-            href={require("../../images/CV.pdf")}
+            href={
+              language
+                ? require("../../images/englishCV.pdf")
+                : require("../../images/CV.pdf")
+            }
             aria-label="GitHub"
             target="_blank"
             rel="noreferrer"
