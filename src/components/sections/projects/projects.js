@@ -11,6 +11,7 @@ import storeImage from "../../../images/store.jpg";
 import hackatonImage from "../../../images/hackaton.jpg";
 import todoImage from "../../../images/todo.jpg";
 import ownTrelloImage from "../../../images/ownTrello.jpg";
+import twoFactorImage from from "../../../images/twoFactor.jpg";
 
 const Projects = () => {
   const { language } = useContext(LanguageContext);
@@ -51,6 +52,14 @@ const Projects = () => {
     link: "https://matiaswaisman.com.ar",
   };
 
+  var twoFactor = {
+    name: language ? "Two Factor Authentication Login" : "Login con Autenticación en Dos Pasos",
+    tags: ["Express", "MongoDB", "React"],
+    image: twoFactorImage,
+    gitLink: "https://github.com/matiWaisman/TwoFactorHeroku",
+    link: "https://two-factor-matias-waisman.herokuapp.com/login",
+  };
+
   var ownTrello = {
     name: language ? "My own version of Trello" : "Mi propia version de Trello",
     tags: ["React"],
@@ -64,6 +73,7 @@ const Projects = () => {
     store,
     hackatonCompetition,
     portfolio,
+    twoFactor,
     ownTrello,
   ];
 
