@@ -84,10 +84,10 @@ const Work = (props) => {
   const sendEmail = (e) => {
     emailjs
       .sendForm(
-        `${process.env.REACT_APP_SERVICE}`,
-        `${process.env.REACT_APP_TEMPLATE_ID}`,
+        `${"service_wjfogrx"}`,
+        `${"template_aw8abar"}`,
         form.current,
-        `${process.env.REACT_APP_EMAIL_USER_ID}`
+        `${"user_PtdhzqsPAhvWZTIaOkqkX"}`
       )
       .then(
         (result) => {
@@ -150,7 +150,7 @@ const Work = (props) => {
         ></textarea>
         <div className="captcha">
           <ReCAPTCHA
-            sitekey={process.env.REACT_APP_CAPTCHA_ID}
+            sitekey={"6LelQ6AeAAAAAIiryzGnMhnd9whyhx5pWkhlvADq"}
             onChange={handleCaptcha}
             theme="dark"
             ref={reCaptcha}
