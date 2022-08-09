@@ -48,7 +48,7 @@ const Projects = () => {
     tags: ["React"],
     image: portfolioImage,
     gitLink: "https://github.com/matiWaisman/MatiWaismanPortfolio",
-    link: "https://matias-waisman.herokuapp.com/",
+    link: "https://matiaswaisman.com.ar",
   };
 
   var ownTrello = {
