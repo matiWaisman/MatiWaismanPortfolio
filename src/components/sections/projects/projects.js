@@ -11,7 +11,7 @@ import storeImage from "../../../images/store.jpg";
 import hackatonImage from "../../../images/hackaton.jpg";
 import todoImage from "../../../images/todo.jpg";
 import ownTrelloImage from "../../../images/ownTrello.jpg";
-import twoFactorImage from from "../../../images/twoFactor.jpg";
+import twoFactorImage from "../../../images/twoFactor.jpg";
 
 const Projects = () => {
   const { language } = useContext(LanguageContext);
@@ -53,7 +53,9 @@ const Projects = () => {
   };
 
   var twoFactor = {
-    name: language ? "Two Factor Authentication Login" : "Login con Autenticación en Dos Pasos",
+    name: language
+      ? "Two Factor Authentication Login"
+      : "Login con Autenticación en Dos Pasos",
     tags: ["Express", "MongoDB", "React"],
     image: twoFactorImage,
     gitLink: "https://github.com/matiWaisman/TwoFactorHeroku",
