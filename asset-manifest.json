@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.1ab5cd94.css",
-    "main.js": "/static/js/main.21f51965.js",
+    "main.js": "/static/js/main.8a971838.js",
     "static/js/787.53667f1e.chunk.js": "/static/js/787.53667f1e.chunk.js",
     "static/media/store.jpg": "/static/media/store.a74ef76148cd53980f75.jpg",
     "static/media/portfolio.jpg": "/static/media/portfolio.bf57d956d77cf680e1af.jpg",
-    "static/media/CV.pdf": "/static/media/CV.50a2d8c947f59cd9c8f0.pdf",
     "static/media/ownTrello.jpg": "/static/media/ownTrello.317b37e33f5f9c915a8c.jpg",
-    "static/media/englishCV.pdf": "/static/media/englishCV.46168c883eafa2a0f57a.pdf",
+    "static/media/CV.pdf": "/static/media/CV.919820b6d17803157638.pdf",
+    "static/media/englishCV.pdf": "/static/media/englishCV.535faf734341ee3086f3.pdf",
     "static/media/hackaton.jpg": "/static/media/hackaton.7673d38f5e225ee59ef9.jpg",
     "static/media/todo.jpg": "/static/media/todo.4cb15cad192e30ce319f.jpg",
     "static/media/me.jpg": "/static/media/me.a0b3ccc690cd9402ae2d.jpg",
@@ -18,11 +18,11 @@
     "static/media/layer3.svg": "/static/media/layer3.6749094644f2e4c8920d.svg",
     "index.html": "/index.html",
     "main.1ab5cd94.css.map": "/static/css/main.1ab5cd94.css.map",
-    "main.21f51965.js.map": "/static/js/main.21f51965.js.map",
+    "main.8a971838.js.map": "/static/js/main.8a971838.js.map",
     "787.53667f1e.chunk.js.map": "/static/js/787.53667f1e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ab5cd94.css",
-    "static/js/main.21f51965.js"
+    "static/js/main.8a971838.js"
   ]
 }
