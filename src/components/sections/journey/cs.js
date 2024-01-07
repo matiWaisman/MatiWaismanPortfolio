@@ -23,7 +23,7 @@ const Cs = (props) => {
               <IconContext.Provider value={{ size: "16px" }}>
                 <VscCalendar />
               </IconContext.Provider>
-              <span>2022 - 2028</span>
+              <span>2022 - 2026</span>
             </div>
           </div>
           <div>
