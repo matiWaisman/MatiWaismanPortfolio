@@ -48,8 +48,8 @@ const About = () => {
           >
             <p>
               {language
-                ? `Hi! My name is Matias and i am ${myAge} years old, graduated from Ort's High school with specialization in web and mobile development and freshman at BSc. in Computer Science at the education department of exact and natural sciences from the University of Buenos Aires.`
-                : `¡Hola! Me llamo Matías y tengo ${myAge} años, egresado de la escuela Ort con Especialización en desarrollo web y Mobile e ingresante a Ciencias de la Computación en la FCEyN de la Universidad de Buenos Aires.`}
+                ? `Hi! My name is Matias and i am ${myAge} years old, graduated from Ort's High school with specialization in web and mobile development and student at BSc. in Computer Science at the education department of exact and natural sciences from the University of Buenos Aires.`
+                : `¡Hola! Me llamo Matías y tengo ${myAge} años, egresado de la escuela Ort con Especialización en desarrollo web y Mobile y estudiante a Ciencias de la Computación en la FCEyN de la Universidad de Buenos Aires.`}
             </p>
             <p>
               {language ? "I enjoy" : "Disfruto"} {""}
