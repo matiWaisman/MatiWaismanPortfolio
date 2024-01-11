@@ -22,16 +22,16 @@ const Projects = () => {
     name: language ? "Task Manager" : "Administrador de Tareas",
     tags: ["Express", "MongoDB", "React"],
     image: todoImage,
-    gitLink: "https://github.com/matiWaisman/TaskManagerHeroku",
-    link: "https://tm-matias-waisman.herokuapp.com/",
+    gitLink: "https://github.com/matiWaisman/TaskManager",
+    link: "https://tm-frontend-blond.vercel.app/",
   };
 
   var store = {
     name: language ? "Store" : "Tienda",
     tags: ["Express", "MongoDB", "React"],
     image: storeImage,
-    gitLink: "https://github.com/matiWaisman/StoreHeroku",
-    link: "https://store-mern-matias-waisman.herokuapp.com/",
+    gitLink: "https://github.com/matiWaisman/StoreMern",
+    link: "https://store-frontend-lilac.vercel.app/",
   };
 
   var hackatonCompetition = {
@@ -40,8 +40,8 @@ const Projects = () => {
       : "Competición de Hackatons Automatica",
     tags: ["Express", "MongoDB", "React"],
     image: hackatonImage,
-    gitLink: "https://github.com/matiWaisman/HackatonHeroku",
-    link: "https://hackaton-matias-waisman.herokuapp.com/",
+    gitLink: "https://github.com/matiWaisman/Hackaton",
+    link: "https://hackaton-frontend-eight.vercel.app/",
   };
 
   var portfolio = {
@@ -58,8 +58,8 @@ const Projects = () => {
       : "Login con Autenticación en Dos Pasos",
     tags: ["Express", "MongoDB", "React"],
     image: twoFactorImage,
-    gitLink: "https://github.com/matiWaisman/TwoFactorHeroku",
-    link: "https://two-factor-matias-waisman.herokuapp.com/login",
+    gitLink: "https://github.com/matiWaisman/TwoFactor",
+    link: "https://two-factor-frontend.vercel.app/login",
   };
 
   var ownTrello = {
@@ -67,7 +67,7 @@ const Projects = () => {
     tags: ["React"],
     image: ownTrelloImage,
     gitLink: "https://github.com/matiWaisman/OwnTrello",
-    link: "https://own-trello-matias-waisman.herokuapp.com/",
+    link: "https://own-trello.vercel.app/",
   };
 
   var arrayProjects = [
